@@ -43,4 +43,17 @@ public class PhysicsCalculationGUI {
     frame.setVisible(true);
   }
 }
+#For force
+
+def calculate_force(mass, acceleration):
+    force = mass * acceleration
+    return force
+
+# Example usage:
+mass = 5  # Mass in kg
+acceleration = 10  # Acceleration in m/s^2
+
+result = calculate_force(mass, acceleration)
+print("The force is:", result, "N")
+
 
