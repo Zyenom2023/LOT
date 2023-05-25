@@ -55,5 +55,20 @@ acceleration = 10  # Acceleration in m/s^2
 
 result = calculate_force(mass, acceleration)
 print("The force is:", result, "N")
+#For acceleration
+
+public class AccelerationCalculator {
+    public static void main(String[] args) {
+        double initialVelocity = 10.0;  // Initial velocity in meters per second
+        double finalVelocity = 20.0;    // Final velocity in meters per second
+        double time = 2.0;               // Time in seconds
+        
+        // Calculate acceleration
+        double acceleration = (finalVelocity - initialVelocity) / time;
+        
+        // Print the result
+        System.out.println("The acceleration is: " + acceleration + " m/s^2");
+    }
+}
 
 
